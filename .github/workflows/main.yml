@@ -34,7 +34,7 @@ jobs:
         # с которым установлено соединение
         script: |
           cd taski
-          touch abcd
+          sudo touch abcde
           # Выполняет pull образов с DockerHub
           sudo docker compose -f docker-compose.production.yml pull
           # Перезапускает все контейнеры в docker compose
