@@ -43,7 +43,7 @@ services:
     # перенаправление всех запросов с порта 8000 хоста
     # на порт 80 контейнера.
     volumes:
-      - static:/staticfiles/
+      - static:/staticfiles
     depends_on:
       - backend
       - frontend
